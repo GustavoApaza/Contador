@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-color: rgb(100, 196, 164);
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    /* border: 1px solid red; */
+}
+
+main{
+    width: 400px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .caja{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+main .caja #restar{
+    font-size: 50px;
+    margin: auto;
+}
+
+main .caja #restar:hover{
+    color: greenyellow;
+    background-color: black;
+}
+
+main .caja #numero{
+    font-size: 50px;
+    margin: auto;
+}
+
+main .caja #numero:hover {
+    color: red;
+  }
+
+main .caja #sumar{
+    font-size: 50px;
+    margin: auto;
+}
+
+main .caja #sumar:hover{
+    color: greenyellow;
+    background-color: black;
+}
+
+footer{
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 425px) {
+    header h1 {
+        font-size: 50px;
+    }
+
+    main{
+        width: auto;
+    }
+}
